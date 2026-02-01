@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# Data (DO NOT PUSH RAW DATA)
+data/raw/
+data/processed/
+
+# Models
+models/**/*.pt
+models/**/*.ckpt
+
+# Logs & experiments
+experiments/logs/
+results/
+
+# OS
+.DS_Store
